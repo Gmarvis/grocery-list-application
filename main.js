@@ -63,8 +63,9 @@ form.addEventListener("submit", (e) => {
     formInput.value = newIterms.innerText;
     taskHOlder.task = newIterms.innerText;
     taskHOlder.domEl = newIterms;
+    console.log(taskHOlder.domEl)
   });
 
   // console.log(newIterms).value
-  console.log(listIterm);
+//   console.log(listIterm);
 });
